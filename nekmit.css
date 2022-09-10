@@ -1,0 +1,224 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* hrader */
+.head{
+    height: 800px;
+    background-image: url(images.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    padding-top: 100px;
+}
+.header-content
+{
+    position: absolute;
+    margin-top: 200px;
+}
+.header-content h1
+{
+    font-size: 73px;
+}
+.header-content h1,.header-content p{
+    margin-bottom: 30px;
+}
+.header-content button
+{
+    padding: 15px 25px;
+    border-radius: 12px;
+    color: #fff;
+    margin-right: 15px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.header-content button:hover
+{
+    background-color: aqua;
+    border: none;
+}
+.navbar
+{
+    padding: 20px;
+}
+nav a
+{
+    color: #fff;
+}
+/* header */
+
+/* link */
+.link
+{
+    color: #FFFFFF;
+    background-color: #026B8A;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.link .link-content i
+{
+    color: #026B8A;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%; 
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: rgba(255,255,255,.2);
+    transition: all 0.5s;
+}
+.link .link-content i:hover
+{
+    color: #fff;
+    background-color: aqua;
+    cursor: pointer;
+}
+.link .link-content p
+{
+    padding-left: 15px;
+}
+/* link */
+
+/* icon */
+.icon-content3
+{
+    border: #026B8A 1px solid;
+    padding: 30px;
+}
+.icon-content3 i
+{
+    background-color: #026B8A;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    position: absolute;
+    top: -25px;
+    right: 25px;
+}
+.icon-content3 button
+{
+    border: none;
+    background-color: transparent;
+}
+/* icon */
+
+/* info */
+.info
+{
+    height: 800px;
+    background-image: url(images.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.info11
+{
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+}
+.info3 span
+{
+    padding:7px;
+    text-align: center;
+    color: #fff;
+    background-color: #026B8A;
+    border-radius: 50%;
+}
+.info22
+{
+    width: 600px;
+    height: 400px;
+}
+.info22 img
+{
+    width: 100%;
+    height: 100%;
+}
+/* info */
+
+
+/* divid */
+.divid .divid3
+{
+    padding-right: 50px;
+}
+.divid .divid3 img
+{
+    width: 100%;
+}
+.divid .divid3  h4
+{
+    cursor: pointer;
+    color: #0AC6FC;
+}
+/* divid */
+
+
+/* contact */
+.contact
+{
+    background-color: #026B8A;
+    height: 500px;
+    color: #fff;
+}
+.contact i
+{
+    color: #fff;
+    background-color: rgba(255,255,255,.2);
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+.contact i:hover
+{
+    background-color: #00ACEE;
+    cursor: pointer;
+}
+.contact .pp
+{
+    cursor: pointer;
+    color: #0AC6FC;;
+}
+.contact input
+{
+    color: #FFFFFF;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 12px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.contact input:focus
+{
+    background-color: #00ACEE;
+    border: none;
+}
+.contact  button
+{
+    background-color: #00ACEE;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+}
+.contact  button:hover
+{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.contact span
+{
+    color: #0AC6FC;;
+}
+/* contact */
